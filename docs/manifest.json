@@ -8,13 +8,8 @@
       "type": "image/x-icon"
     },
     {
-<<<<<<< HEAD
       "src": "favicon.jpg",
       "type": "image/jpg",
-=======
-      "src": "logo.png",
-      "type": "image/png",
->>>>>>> 58be3b803b0202b52abeb32a061277628cd57ab3
       "sizes": "190x216"
     }
   ],
