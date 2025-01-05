@@ -3,8 +3,6 @@ import {deskTool} from 'sanity/desk'
 import {visionTool} from '@sanity/vision'
 import {schemaTypes} from './schemas/schema'  
 
-// import {schemaTypes} from './schemaTypes'
-
 export default defineConfig({
   name: 'default',
   title: 'nyk_portfolio',
