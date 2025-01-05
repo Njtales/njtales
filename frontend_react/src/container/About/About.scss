@@ -1,0 +1,284 @@
+.app__about {
+  flex: 1;
+  display: flex;
+  width: 100%;
+  align-items: center;
+  text-align: center;
+  flex-direction: column;
+}
+
+.about-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin: 20px 50px;
+  @media screen and (max-width: 768px) {
+    flex-direction: column; 
+  }
+}
+
+.app__profilestory {
+  margin-top: 2rem;
+}
+
+.app__profiles {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  margin-top: 2rem;
+}
+
+.app__profile-item {
+  width: 220px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  flex-direction: column;
+  background-color: var(--lightwhite-color);
+  margin: 2rem;
+
+  img {
+    width: 100%;
+    height: 170px;
+    border-radius: 15px;
+    object-fit: cover;
+  }
+
+  @media screen and (min-width: 2000px) {
+    width: 370px;
+    margin: 2rem 4rem;
+
+    img {
+      height: 320px;
+    }
+  }
+}
+
+.about-left-column {
+  font-size: 1.2rem;
+  
+  font-family: var(--font-inter);
+  color: var(--brown-color);
+  position: relative;
+  text-align: justify; 
+  width: 50%;
+  max-width: 700px;
+  margin: 30px 0px 0px 50px; 
+  
+  @media screen and (max-width: 768px) {
+    width: 100%; 
+  }
+}
+
+.about-storytitle {
+  text-align: left;
+  color: var(--grey-color);
+  font-weight: 600;
+  font-size: 1rem;
+}
+
+.about-storytext {
+  font-size: 0.8rem;
+  color: var(--brown-color);
+  line-height: 1.5;
+  margin-top: 15px;
+}
+
+.about-right-column {
+  font-size: 0.9rem;
+  
+  font-family: var(--font-inter);
+  color: var(--brown-color);
+  position: relative;
+  text-align: justify; 
+  width: 50%;
+  margin: 30px 40px;
+
+  @media screen and (max-width: 768px) {
+    left: -12%;
+    width: 100%; 
+  }
+}
+
+.about-work {
+  text-align: left;
+  span{
+    text-align: left;
+    color: var(--grey-color);
+    font-weight: 600;
+    font-size: 1rem;
+  }
+}
+
+.app__skills-exp{
+  margin: 0.25rem 0rem 0rem 0rem;
+}
+
+.app__skills-exp-work {
+  margin-bottom: 0.5rem;
+}
+
+.app__skills-exp-works {
+  margin-top: 0.5rem;
+}
+.app__skills-exp-item {
+  font-size: 0.8rem;
+}
+.app__skills-exp-year {
+  font-size: 0.7rem;
+  font-weight: 200;
+}
+
+.year-text {
+  font-weight: 400;
+  font-size: 0.9rem;
+  margin-top: 17px;
+  color: var(--grey-color);
+}
+
+.work-text {
+  font-weight: 400;
+  font-size: 0.9rem;
+  font-weight: 800;
+  font-family: var(--font-inter);
+}
+
+.title-text {
+  font-weight: 800;
+  color: var(--brown-color);
+  font-size: 1.05rem;
+}
+
+.ptext {
+  font-size: 0.9rem;
+  font-weight: 400;
+  margin-top: 0.1rem;
+}
+
+.work_card-text {
+  text-align: left;
+  color: var(--brown-color);
+  font-size: 0.9rem;
+  font-weight: 700;
+  line-height: auto;
+
+  @media screen and (min-width: 2000px) {
+    font-size: 1.1rem;
+  }
+  @media screen and (max-width: 1200px) {
+    font-size: 1rem;
+  }
+  @media screen and (max-width: 900px) {
+    font-size: 0.9rem;
+  }
+  @media screen and (max-width: 768px) {
+    font-size: 0.8rem;
+  }
+  @media screen and (max-width: 450px) {
+    font-size: 0.0.65rem;
+  }
+}
+.skills-tooltip {
+  background-color: var(--lightwhite-color);
+  color: var(--yellow-color); 
+  border-radius: 10px; 
+  padding: 10px; 
+  box-shadow: 2px 2px 5px var(--yellow-color); 
+}
+
+.app__profiles {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  margin-top: 2rem;
+}
+
+.app__profile-item {
+  width: 220px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  flex-direction: column;
+  background-color: var(--lightwhite-color);
+  margin: 2rem;
+
+  img {
+    width: 100%;
+    height: 170px;
+    border-radius: 15px;
+    object-fit: cover;
+  }
+
+  @media screen and (min-width: 2000px) {
+    width: 370px;
+    margin: 2rem 4rem;
+
+    img {
+      height: 320px;
+    }
+  }
+}
+
+.app__skills-list {
+  flex: 1;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-items: flex-start;
+
+  margin-right: 5rem;
+
+  @media screen and (max-width: 900px) {
+    margin-right: 0;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+.app__skills-item {
+  flex-direction: column;
+  text-align: center;
+  margin: 1.5rem;
+  transition: all 0.3s ease-in-out;
+
+  div {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: var(--yellow-color);
+
+    img {
+      width: 80%;
+      height: 76%;
+    }
+
+    &:hover {
+      box-shadow: 0 0 5px var(--yellow-color);
+    }
+
+    @media screen and (min-width: 2000px) {
+      width: 150px;
+      height: 150px;
+    }
+
+    @media screen and (max-width: 450px) {
+      width: 70px;
+      height: 70px;
+    }
+  }
+
+  p {
+    font-weight: 500;
+    margin-top: 0.5rem;
+  }
+
+  @media screen and (min-width: 2000px) {
+    margin: 1rem 2rem;
+
+    p {
+      margin-top: 1rem;
+    }
+  }
+}
